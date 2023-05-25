@@ -1,0 +1,87 @@
+body, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 100px;
+  background: #717171;
+}
+
+#content {
+  margin: 100px auto 20px auto;
+  border: 10px solid #4C4C4C;
+  width: 400px;
+  height: 266px;
+  position: relative;
+}
+
+#content img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+
+img {
+  width: 400px;
+  height: 266px;
+}
+
+p {
+  text-align: center;
+}
+
+
+p, #links {
+  width: 420px;
+  height: 50px;
+  display: flex;
+  margin: auto;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+
+#previous, #next{
+  color: white;
+  display: flex;
+  width: 210px;
+  height: 50px;
+  background: #6d0404;
+  font: 16px;
+  font-family: Arial;
+  text-transform: uppercase;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 0;
+}
+
+#links a:hover{
+  background: #a51d1f;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.author {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  align-items: center;
+}
+/* Animation Styles */
+
+.fadeinimg {
+  animation: fadein 1s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
